@@ -34,3 +34,9 @@ Menor: 55 | Maior: 100 | Mediana: 80.50
 Comparações: Bubble 45 | Selection 45 | Insertion 29
 
 Resultado
+
+---
+
+## Testes 
+
+![Resultado](teste-principal.jpeg)
