@@ -54,7 +54,7 @@ Cenário A (vetor já ordenado): Bubble 45 | Selection 45 | Insertion 9
 Cenário B (vetor em ordem inversa): Bubble 45 | Selection 45 | Insertion 45
 Conclusão: Bubble e Selection não mudam com a ordem inicial dos dados, enquanto o Insertion Sort passa de 9 para 45 comparações (5 vezes mais), pois só ele aproveita o fato de o vetor já estar ordenado.
 
-![Resultado](Extra _1.jpeg)
+![Resultado](Extra_1.jpeg)
 
 --
 
