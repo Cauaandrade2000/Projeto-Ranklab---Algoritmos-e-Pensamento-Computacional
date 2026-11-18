@@ -40,3 +40,26 @@ Resultado
 ## Testes 
 
 ![Resultado](teste-principal.jpeg)
+
+
+---
+## Desafios Extras:
+Ordem de classificação: o usuário escolhe entre ordem crescente ou decrescente.
+Trocas e deslocamentos: além das comparações, o programa conta as trocas (Bubble e Selection) e os deslocamentos (Insertion).
+Tempo de execução: medição do tempo de CPU com vetores maiores (100 a 10000 valores).
+Pontuações aleatórias: geração automática de dez pontuações.
+Menu: permite executar um método específico ou comparar os três.
+Comparação de Cenários (já ordenado x ordem inversa):
+Cenário A (vetor já ordenado): Bubble 45 | Selection 45 | Insertion 9
+Cenário B (vetor em ordem inversa): Bubble 45 | Selection 45 | Insertion 45
+Conclusão: Bubble e Selection não mudam com a ordem inicial dos dados, enquanto o Insertion Sort passa de 9 para 45 comparações (5 vezes mais), pois só ele aproveita o fato de o vetor já estar ordenado.
+
+![Resultado]()
+![Resultado]()
+
+
+---
+
+## # Conclusão da Análise:
+
+Os três métodos chegaram sempre à mesma sequência ordenada, inclusive com valores repetidos, confirmando que as implementações estão corretas. Bubble Sort e Selection Sort realizam sempre 45 comparações com 10 elementos, independentemente da ordem inicial (com 100 elementos, o Bubble fez 4950, ou seja, n(n-1)/2). O Insertion Sort é o único cujo custo depende dos dados: 9 comparações no melhor caso (vetor já ordenado) e 45 no pior (ordem inversa). Quanto às trocas, o Selection Sort fez apenas 7 contra 27 do Bubble Sort na execução extra com 10 valores, mostrando que comparações e trocas medem custos diferentes. Para vetores pequenos, todos os métodos são rápidos (tempo de CPU próximo de zero), e a diferença só tende a aparecer com vetores maiores.
